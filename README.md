@@ -7,6 +7,8 @@ A BepInEx mod that tones down the co-op sidekick's crossbow (Cervul's), which ot
 - **Pierce cap:** once upgraded to piercing, a bolt goes through at most 2 enemies instead of the whole row. (It still feels strong, and Cervul has other tools Alcedor doesn't get.)
 - **HUD:** the tool icon's `xN` counter shows remaining ammo and fades while no bolt is loaded.
 
+Tested alongside the Runecedor mod (Infernax ClassMod 0.8.59).
+
 ## Requirements
 
 - Infernax (Steam, current version)
@@ -37,10 +39,8 @@ Edit it with the game closed; changes apply on next launch.
 
 ## Known limitations
 
-- With `ShowAmmoInHud` on, the counter no longer shows the loaded-bolt count. The fade shows whether a bolt is loaded instead.
-- Upgrade descriptions in the shrine menu still describe the vanilla crossbow. 
-
-Tested alongside Infernax ClassMod 0.8.59 (Runecedor).
+- Upgrade descriptions in the shrine menu still describe the vanilla crossbow.
+- With `ShowAmmoInHud` on (default), the counter shows total ammo instead of the one loaded shot. The loaded shot is shown by not being dimmed text.
 
 ## Building from source
 

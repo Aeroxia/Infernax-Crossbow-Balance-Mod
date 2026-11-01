@@ -19,7 +19,7 @@ Tested alongside the Runecedor mod (Infernax ClassMod 0.8.59).
 
 1. Install BepInEx to the Infernax game folder. Download [Here](https://builds.bepinex.dev/projects/bepinex_be/791/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.791%2Bb782da4.zip) - or find on [their site](https://builds.bepinex.dev/projects/bepinex_be) (I used artifact #791.)
 2. Download `CrossbowBalance-x.y.z.zip` from the [Releases](https://github.com/Aeroxia/Infernax-Crossbow-Balance-Mod/releases) page
-3. Extract it into the Infernax game folder, so the dll ends up in `Infernax\BepInEx\plugins\`.
+3. Extract it into the Infernax game folder, so the files end up in `Infernax\BepInEx\plugins\CrossbowBalance\`.
 
 ## Settings
 
@@ -50,7 +50,7 @@ Requires the .NET SDK (6.0 or newer). Put this folder at `<Infernax>\CrossbowBal
 dotnet build -c Release -p:GameDir="C:\path\to\Infernax\"
 ```
 
-The built dll is copied to `BepInEx\plugins` automatically.
+The built dll is copied to `BepInEx\plugins\CrossbowBalance` automatically.
 
 ## License
 

@@ -18,8 +18,8 @@
     <!-- All generated game/Unity interop assemblies -->
     <Reference Include="$(GameDir)BepInEx\interop\*.dll" Private="false" />
   </ItemGroup>
-  <!-- After building, drop the dll straight into the plugins folder -->
+  <!-- After building, drop the dll into its own folder under plugins -->
   <Target Name="CopyToPlugins" AfterTargets="Build">
-    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GameDir)BepInEx\plugins" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GameDir)BepInEx\plugins\CrossbowBalance" />
   </Target>
 </Project>

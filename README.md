@@ -16,7 +16,7 @@ A BepInEx mod that tones down the co-op sidekick's crossbow (Cervul's), which ot
 ## Install
 
 1. Install BepInEx to the Infernax game folder. Download [Here](https://builds.bepinex.dev/projects/bepinex_be/791/BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.791%2Bb782da4.zip) - or find on [their site](https://builds.bepinex.dev/projects/bepinex_be) (I used artifact #791.)
-2. Download `CrossbowBalance-x.y.z.zip` from the [Releases](https://github.com/Aeroxia/Infernax-Crossbox-Balance-Mod/releases) page
+2. Download `CrossbowBalance-x.y.z.zip` from the [Releases](https://github.com/Aeroxia/Infernax-Crossbow-Balance-Mod/releases) page
 3. Extract it into the Infernax game folder, so the dll ends up in `Infernax\BepInEx\plugins\`.
 
 ## Settings

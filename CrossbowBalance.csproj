@@ -5,10 +5,10 @@
     <LangVersion>latest</LangVersion>
     <Nullable>disable</Nullable>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
-    <!-- Where the game lives (default: this folder is <game>\!Etc\CrossbowBalance).
+    <!-- Where the game lives (default: this folder is <game>\CrossbowBalance).
          Override with: dotnet build -c Release -p:GameDir="C:\path\to\Infernax\"
          References come from BepInEx's generated interop + core folders (run the game once with BepInEx first). -->
-    <GameDir Condition="'$(GameDir)' == ''">$(MSBuildThisFileDirectory)..\..\</GameDir>
+    <GameDir Condition="'$(GameDir)' == ''">$(MSBuildThisFileDirectory)..\</GameDir>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="$(GameDir)BepInEx\core\BepInEx.Core.dll" Private="false" />

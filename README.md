@@ -44,7 +44,7 @@ Edit it with the game closed; changes apply on next launch.
 
 ## Building from source
 
-Requires the .NET SDK (6.0 or newer). Put this folder at `<Infernax>\!Etc\CrossbowBalance`, or pass the game path explicitly:
+Requires the .NET SDK (6.0 or newer). Put this folder at `<Infernax>\CrossbowBalance`, or pass the game path explicitly:
 
 ```
 dotnet build -c Release -p:GameDir="C:\path\to\Infernax\"
